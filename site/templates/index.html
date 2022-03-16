@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% block metas %}
+{% endblock %}
+  <title>Bragg-reflector</title>
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Main page</a></li>
+            <li><a href="/second">Second Page</a></li>
+            <li><a href="/other">Other Page</a></li>
+        </ul>
+    </nav>
+</header>
+ </header>
+    {% block content %}
+    {% endblock %}
+</body>
